@@ -89,9 +89,6 @@ We completed the following learning objectives:
 
 ### Analysis Details
 
-[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/blob/main/images/analysis.PNG)
-
-
 I ran this analysis for the "tools" section of Amazon.
 
 #### How many Vine reviews and non-Vine reviews were there?
@@ -110,6 +107,8 @@ There is a clear positivity bias for vine reviews (57% vs. 46%). A further analy
 
 
 ## Notes: 
+
+The below notes were taken directly from the Berkely Bootcamp Module:
 
 Four Vs of Big Data
 There are four characteristics of big data:
