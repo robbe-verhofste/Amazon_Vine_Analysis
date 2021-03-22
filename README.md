@@ -91,7 +91,7 @@ We completed the following learning objectives:
 
 ### Analysis Details
 
-[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/images/analysis.png)
+[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/tree/main/images)
 
 
 <!-- USAGE EXAMPLES -->
