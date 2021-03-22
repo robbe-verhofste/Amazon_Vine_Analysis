@@ -31,8 +31,7 @@ Deliverable 3: A Written Report on the Analysis (README.md)
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Overview"> Overview
-</a>
+      <a href="#Overview"> Overview</a>
       <ul>
         <li><a href="#Subheader">Subheader</a></li>
       </ul>
@@ -55,18 +54,16 @@ Deliverable 3: A Written Report on the Analysis (README.md)
 ## Overview
 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+<!-- Overview of the analysis: Explain the purpose of this analysis.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Results: Using bulleted lists and images of DataFrames as support, address the following questions:
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+How many Vine reviews and non-Vine reviews were there?
+How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement. -->
 
 ### Subheader
 
@@ -78,42 +75,39 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 
 
-### Subheader 1
+### Overview:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Using your knowledge of the cloud ETL process, you’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets (Links to an external site.), and extract the dataset into a DataFrame. You'll transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, you'll upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
 
-### Subheader 2
+We completed the following learning objectives: 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+* Define big data and describe the challenges associated with it.
+* Define Hadoop and name the main elements of its ecosystem.
+* Explain how MapReduce processes data.
+* Define Spark and explain how it processes data.
+* Describe how NLP collects and analyzes text data.
+* Explain how to use AWS Simple Storage Service (S3) and relational databases for basic cloud storage.
+* Complete an analysis of an Amazon customer review.
 
+### Analysis Details
+
+[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/images/analysis.png)
 
 
 <!-- USAGE EXAMPLES -->
+
 ## Deliverable 2: Determine Bias of Vine Reviews
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Notes: 
 
+Four Vs of Big Data
+There are four characteristics of big data:
 
-
-
+* Volume refers to the size of data (e.g., terabytes of product information). For instance, a year's worth of stock market transactions is a large amount of data.
+* Velocity pertains to how quickly data comes in (customers across the world purchasing every second). As an example, McDonald's restaurants are worldwide with customers buying food at a constant rate, so the data comes in fast.
+* Variety relates to different forms of data (e.g., user account information, product details, etc.). Consider the breadth of Netflix user information, videos, photos for thumbnails, and so forth.
+* Veracity concerns the uncertainty of data (e.g., reviews might not be real and could come from bots). As an example, Netflix would want to verify whether users are actively watching the shows, falling asleep, or just playing them in the background.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
