@@ -53,7 +53,10 @@ Deliverable 3: A Written Report on the Analysis (README.md)
 <!-- ABOUT THE PROJECT -->
 ## Overview
 
+In this analysis we compared 5-star vine reviews (paid reviews) with non-vine reviews (unpaid) to determine whether paid reviews are proportionally more likely to be rated with 5-stars and, subsequently, whether paying for reviews is worth it.
 
+
+## Deliverable 1: Perform ETL on Amazon Product Reviews
 
 
 <!-- Overview of the analysis: Explain the purpose of this analysis.
@@ -65,16 +68,7 @@ How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement. -->
 
-### Subheader
-
-
-
-
 <!-- GETTING STARTED -->
-## Deliverable 1: Perform ETL on Amazon Product Reviews
-
-
-
 ### Overview:
 
 Using your knowledge of the cloud ETL process, you’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets (Links to an external site.), and extract the dataset into a DataFrame. You'll transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, you'll upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
@@ -89,14 +83,30 @@ We completed the following learning objectives:
 * Explain how to use AWS Simple Storage Service (S3) and relational databases for basic cloud storage.
 * Complete an analysis of an Amazon customer review.
 
-### Analysis Details
 
-[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/tree/main/images)
-
-
-<!-- USAGE EXAMPLES -->
 
 ## Deliverable 2: Determine Bias of Vine Reviews
+
+### Analysis Details
+
+[![Analysis Ouput]](https://github.com/robbe-verhofste/Amazon_Vine_Analysis/blob/main/images/analysis.PNG)
+
+
+I ran this analysis for the "tools" section of Amazon.
+
+#### How many Vine reviews and non-Vine reviews were there?
+* There were 31,830 helpful reviews, and 14,777 helpful 5-star review ratings.
+#### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+* There were 163 paid, helpful 5-star reviews
+* There were 14,614 unpaid, helpful 5-star reviews
+#### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+* 57% of paid reviews were 5-star while 46% of unpaid reviws were 5-star, indicating a correlation between paid reviewers and high star ratings.
+
+## Summary:
+
+There is a clear positivity bias for vine reviews (57% vs. 46%). A further analysis I could run here would be to compare the average 1,2,3, and 4 star reviews between unpaid and paid reviews, to determine if the pattern is consistent or isolated to 5 star reviews only.
+
+
 
 
 ## Notes: 
